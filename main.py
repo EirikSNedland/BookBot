@@ -9,6 +9,7 @@ def main():
     for item in sorted_list:
         if item["char"].isalpha():
             print(f"'{item["char"]}' appered in the file '{item["num"]}'times")
+    print("----- End Report -----")
 
 
 def get_file_content(file_path):
